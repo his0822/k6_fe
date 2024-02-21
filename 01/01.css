@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 15px;  
+   }
+   fieldset{
+       border: 1px solid red;
+   }
+   div{
+       border: 1px solid yellow;
+       padding-left: 30px;
+       padding-right: 30px;
+   }
+   button{
+       background-color: rgb(41, 134, 255);
+       color: white;
+       cursor: pointer;
+       border: none;
+       padding: 5px;
+       border-radius: 3px;
+       
+   }
+   img {
+       border-radius: 50%;
+   }
+   .link{
+   text-align: right;
+   }
+   .header{
+   font-size: 30px;
+   font-weight: bold;
+   }
+   .mid-box{
+   
+        background-color: skyblue; /* 배경색을 하늘색으로 설정 */
+        padding: 10px; /* 상하좌우로 10px의 여백 추가 */
+        margin-bottom: 20px; /* 아래쪽 여백 추가 */
+        box-sizing: border-box
+    }
+
+   .subtitle{
+       
+    font-size: 20px;
+       font-weight: bold;
+       display: flex;
+       flex: 1;
+   }
