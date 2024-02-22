@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    width: 60%;
+    margin-left: 20%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px ;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    /* display와 align을 동시에 코딩하면 박스가 main 박스의 가운데로 정렬 */
+    flex-direction: column;
+    justify-content: center;
+}
+
+article ul {
+    width: 80%; 
+    /* main 넓이 60% 를 기준으로해서 70%를 사용한다는 의미 */
+    background-color: beige;
+    margin-top: 20px;
+    list-style: none;
+}
+
+article li{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    border: 1px dotted grey;
+    height: 40px;
+    padding: 20px;
+}
