@@ -29,7 +29,7 @@ article {
 article ul {
     width: 80%; 
     /* main 넓이 60% 를 기준으로해서 70%를 사용한다는 의미 */
-    background-color: beige;
+    background-color: rgb(158, 158, 253);
     margin-top: 20px;
     list-style: none;
 }
@@ -39,6 +39,15 @@ article li{
     align-items: center;
     height: 20px;
     border: 1px dotted grey;
-    height: 40px;
+    height: 20px;
     padding: 20px;
+}
+article a{
+    text-decoration: none;
+    color: blue;
+}
+
+article li:hover{
+    background-color: rgb(86, 125, 255);
+    color: white;
 }
