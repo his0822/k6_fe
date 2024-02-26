@@ -16,10 +16,7 @@ button{
     
 }
 
-#img {
-    transition: transform 1s ease-in-out; /* 이미지 트랜지션 효과 추가 */
-}
-
-button:active {
-    transform: scale(0.9); 
+img {
+    margin: 10px;
+    display: inline-flex;
 }
