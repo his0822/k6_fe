@@ -1,22 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-button{
-    
-    height: 40px;
-    background-color: rgb(90, 89, 89);
-    color: rgb(229, 255, 0);
-    border: 0px;
-    margin: 5px 10px;
-    padding: 5px;
-    border-radius: 5px;
-    
-}
-
 img {
-    margin: 10px;
     display: inline-flex;
-}
+    margin: 10px; 
+  }
+  
+  button { 
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
