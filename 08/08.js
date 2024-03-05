@@ -14,6 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let flag = false;
 
   //버튼의 클릭이벤트 달기
+
+  numInput.addEventListener("keydown",(e)=>{
+    if(e.key === "Enter"){
+      bt.click();
+    }
+});  
   bt.addEventListener("click", (e) => {
     e.preventDefault();
     //랜덤수 생성
@@ -54,9 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     else if ( n > numInput.value) {
       upDownImg.setAttribute("src", "../08/08img/up.png") ;
+      numInput.value = "";
     }
     else {
       upDownImg.setAttribute("src", "../08/08img/down.png") ;
+      numInput.value = "";
     }
 
   });

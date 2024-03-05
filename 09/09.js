@@ -68,6 +68,8 @@ for(let c of Object.entries(obj)){
 for(let [k,v] of Object.entries(obj)){
     console.log("오브젝트 : ", k);
     console.log("오브젝트 : ", v);
+
+let arr3 = Object.keys(obj).map(k=> k + "="+ obj[k]);
 }
 
 
