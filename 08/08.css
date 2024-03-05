@@ -1,0 +1,89 @@
+
+/* img {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; 
+} */
+
+/* p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+} */
+h1{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+
+button { 
+  height: 40px;
+  width: 80px;
+  background-color:rgb(247, 75, 32);
+  color: white;
+  border: 0px;
+  margin: 0px 10px 10px 10px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  align-items: start;
+  text-align: center;
+}
+
+
+button:hover {
+  background-color: rgb(128, 15, 0);
+  cursor: pointer;
+}
+
+section {
+  align-items: center;
+}
+
+input[type=number]{
+  display: inline-flex;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+span{
+  
+  align-items: center;
+  width: 100%;
+  color: red;
+}
+
+.msgbox{
+  display: flex;
+  justify-content: center;
+}
+
+.midbox, .imgbox, .msgbox{
+  align-content: center;
+  text-align: center;
+}
+
+.midbox{
+  min-width: 440px;
+  min-height: 370px;
+}
+.imgbox{
+  min-height: 275px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.imgbox img{
+  max-width: 100%; /* 이미지가 부모 요소를 넘어가지 않도록 최대 너비 설정 */
+  max-height: 100%; /* 이미지가 부모 요소를 넘어가지 않도록 최대 높이 설정 */
+  margin: auto; /* 수평 가운데 정렬을 위해 margin: auto; 사용 */
+  display: block;/* 인라인 요소가 가운데 정렬되려면 display: block; 사용 */
+}
