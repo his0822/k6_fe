@@ -57,6 +57,7 @@ section > h1 {
     padding: 20px;
     justify-content: center;
     align-items: center;
+    border: 1px dotted black;
 }
 section {
     display: flex;

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if(e.key === "Enter"){
       bt.click();
     }
-});  
+  });  
   bt.addEventListener("click", (e) => {
     e.preventDefault();
     //랜덤수 생성
