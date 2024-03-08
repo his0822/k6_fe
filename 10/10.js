@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         num.length = 0;
         while(num.length <6){
             let n = Math.floor(Math.random()*45)+1;
-            if( !num.includes ){
+            if( !num.includes(n) ){
                 num.push(n);
             } 
             num.sort(function(a,b){
