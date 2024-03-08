@@ -1,6 +1,6 @@
 img {
   display: inline-flex;
-  margin: 10px; 
+  margin: 10px;
 }
 
 p {
@@ -10,12 +10,16 @@ p {
   font-size: large;
   font-weight: bold;
 }
-
-button { 
-  height: 60px;
+#title1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: 40px;
   width: 120px;
-  background-color:rgb(0, 8, 255);
-  color: white;
+  background-color: rgb(22, 158, 255);
+  color: rgb(255, 255, 255);
   border: 0px;
   margin: 10px;
   padding: 10px;
@@ -27,36 +31,79 @@ button {
   align-items: center;
 }
 
-
 button:hover {
-  background-color: rgb(22, 158, 255);
+  background-color: rgb(3, 112, 190);
   cursor: pointer;
 }
-.num{
+button:active{
+  background-color: rgb(0, 46, 196);
+  font-size: 18px;
+  width: 110px;
+  height: 35px;
+
+}
+.num {
   margin: 5px;
   padding: 10px;
   color: black;
-  border-radius: 5px;
-  width: auto;
-  
+  border-radius: 50%;
 }
 
-ul{
+div ul {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin: 5px;
   padding: 5px;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
 }
-ul>li{
+ul li {
   margin: 5px;
   padding: 5px;
   display: flex;
-  border: 1px dotted rgb(152, 151, 151);
+  justify-content: center;
+  align-items: center;
+  /* border: 1px dotted rgb(152, 151, 151); */
   border-radius: 50%;
-
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  
 }
+
 #txt {
   border: none;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.tx0 {
+  background-color: rgb(226, 174, 2);
+  color: white;
+}
+.tx1 {
+  background-color: rgb(14, 130, 224);
+  color: white;
+}
+.tx2 {
+  background-color: rgb(253, 52, 52);
+  color: white;
+}
+.tx4 {
+  background-color: rgb(33, 163, 50);
+  color: white;
+}
+.tx3 {
+  background-color:rgb(100, 97, 97);
+  color: white;
+}
+
+
+.bt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

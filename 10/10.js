@@ -1,26 +1,29 @@
-document.addEventListener(()=>{
-    const number = document.querySelectorAll(".num");
-    const bt = document.querySelector("button")
+document.addEventListener("DOMContentLoaded", () =>{
+    const numtxt = document.querySelector("#numDisp");
+    const bt = document.querySelector("button");
 
-    bt.addEventListener("click", () => {
+    let num = [];
+
+    bt.addEventListener("click", ()=>{
         
-        
-        numlist = []
-        for ( i = 1; i<=5; i++){
-            n =  Math.floor(Math.random()*45)+1;
-            if(numlist.indexOf(n) === -1){
-                numlist.push(n);
-            }else{
-                i--
-            }
+        num.length = 0;
+        while(num.length <6){
+            let n = Math.floor(Math.random()*45)+1;
+            if( !num.includes ){
+                num.push(n);
+            } 
+            num.sort(function(a,b){
+                return a-b;
+            });
         }
+        num.push(Math.floor(Math.random()*45)+1);
 
-        numlist.sort(function(a,b){
-            return a-b;
-        })
+        tags = num.map((v,i)=>{
+            return `<li class="tx${parseInt(v/10)}">${v}</li>`
+        });
+        tags.splice(6,0,`<li id="txt">+</li>`);
 
+        numtxt.innerHTML = tags.join(" ");
 
-        
-
-
+    });
 });
